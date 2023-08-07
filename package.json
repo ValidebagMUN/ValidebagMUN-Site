@@ -17,6 +17,7 @@
     "simple-analytics-vue": "^3.0.2"
   },
   "dependencies": {
+    "@nuxt/devtools": "^0.7.5",
     "@nuxtjs/color-mode": "^3.2.0",
     "@playwright/test": "^1.34.3",
     "daisyui": "^2.51.6",

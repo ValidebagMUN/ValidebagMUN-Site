@@ -14,7 +14,8 @@ export default defineNuxtConfig({
             siteDescription: 'The Official Website of Validebag Model United Nations Club',
             language: 'en-GB',
             titleSeperator: '|',
-            trailingSlash: true
+            trailingSlash: true,
+            maintenance: process.env.maintenance || 'false'
         },
     },
     app: {

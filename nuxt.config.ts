@@ -1,7 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     devtools: true,
-    extends: ['nuxt-seo-kit'],
     modules: [
         '@nuxtjs/tailwindcss',
         '@nuxtjs/color-mode'

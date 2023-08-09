@@ -20,7 +20,7 @@ const colorMode = useColorMode()
 const isDark = computed(() => colorMode.value === 'dark')
 const favicon = computed(() => isDark.value ? '/vmun-white.svg' : '/vmun-black.svg')
 
-useSchemaOrg([
+/* useSchemaOrg([
   defineOrganization({
     name: 'ValidebagMUN',
     logo: '/vmun-light.png',
@@ -28,7 +28,7 @@ useSchemaOrg([
       'https://www.instagram.com/validebagmun/'
     ]
   })
-])
+]) */
 </script>
 
 <style scoped>

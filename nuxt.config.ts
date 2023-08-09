@@ -28,8 +28,5 @@ export default defineNuxtConfig({
     },
     colorMode: {
         classSuffix: ''
-    },
-    routeRules: {
-        '/**': { isr: true }
     }
 })

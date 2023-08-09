@@ -30,3 +30,7 @@ useSchemaOrg([
   })
 ])
 </script>
+
+<style scoped>
+
+</style>

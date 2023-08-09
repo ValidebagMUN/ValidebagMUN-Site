@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: RetroSignature;
+        font-weight: 300;
+        src: url('/RetroSignature.woff2') format("woff2");
+    }
+    .font-signature {
+        font-family: 'RetroSignature', cursive;
+    }
+    body {
+        @apply bg-secondary dark:bg-primary;
+    }
+}

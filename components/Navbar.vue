@@ -109,27 +109,15 @@
                         </svg>
                     </NuxtLink>
                     <ul class="bg-base-100 dark:bg-secondary z-10 p-2 w-[152px]">
-                        <li>
-                            <NuxtLink to="/committees/ecosoc/">ECOSOC</NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="/committees/who/">WHO</NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="/committees/unga/">UNGA</NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="/committees/unsc/">UNSC</NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="/committees/icj/">ICJ</NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="/committees/hcc/">HCC</NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="/committees/jcc/">JCC</NuxtLink>
-                        </li>
+                        <li><NuxtLink to="/committees/unga/">UNGA</NuxtLink></li>
+                        <li><NuxtLink to="/committees/ecosoc/">ECOSOC</NuxtLink></li>
+                        <li><NuxtLink to="/committees/unodc/">UNODC</NuxtLink></li>
+                        <li><NuxtLink to="/committees/unsc/">UNSC</NuxtLink></li>
+                        <li><NuxtLink to="/committees/ecowas/">ECOWAS</NuxtLink></li>
+                        <li><NuxtLink to="/committees/icj/">ICJ</NuxtLink></li>
+                        <li><NuxtLink to="/committees/jcc/">JCC</NuxtLink></li>
+                        <li><NuxtLink to="/committees/hcc/">HCC</NuxtLink></li>
+                        <li><NuxtLink to="/committees/cjcc/">CJCC</NuxtLink></li>
                     </ul>
                 </li>
                 <li>

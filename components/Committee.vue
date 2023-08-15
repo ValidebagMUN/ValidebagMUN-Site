@@ -1,21 +1,23 @@
 <template>
     <div class="hero min-h-[92vh]">
         <div class="hero-content flex-col lg:flex-row-reverse">
-            <img :src="image" class="max-w-sm rounded-lg shadow-2xl" />
+            <img v-if="image" :src="image" class="max-w-sm rounded-lg shadow-2xl" />
             <div class="text-base-100">
                 <h1 class="mb-3 text-5xl font-bold uppercase">{{ slug }}</h1>
                 <h2 class="text-3xl">{{ name }}</h2>
-                <h3 class="mb-4 text-xl font-medium">Agenda: {{ agenda }}</h3>
+                <div class="mb-4 mt-2">
+                    <h3 v-for="item in agenda" class="text-xl font-medium">Agenda Item{{ agenda.length > 1 ? ' ' + (agenda.indexOf(item) + 1) : ''}}: <span class="text-lg">{{ item }}</span></h3>
+                </div>
                 <hr class="w-[60vw]">
                 <p class="py-6 whitespace-pre-line">{{ text }}</p>
-                <hr class="w-[60vw]">
+                <hr v-if="usg || acas" class="w-[60vw]">
                 <div class="flex my-4 justify-between text-xl max-w-[60vw]">
-                    <h3>{{ 'Under Secretary-General: ' + usg }}</h3>
-                    <h3>{{ 'Academic Assistant: ' + acas }}</h3>
+                    <h3 v-if="usg">{{ usg }}</h3>
+                    <h3 v-if="acas">{{ acas }}</h3>
                 </div>
-                <hr class="mb-5 w-[60vw]">
-                <NuxtLink :to="rop" class="mr-5"><span class="btn btn-primary">Rules of Procedure</span></NuxtLink>
-                <NuxtLink :to="studyguide" class="mr-5"><span class="btn btn-primary">Study Guide</span></NuxtLink>
+                <hr v-if="rop || studyguide" class="mb-5 w-[60vw]">
+                <NuxtLink v-if="rop" :to="rop" class="mr-5"><span class="btn btn-primary">Rules of Procedure</span></NuxtLink>
+                <NuxtLink v-if="studyguide" :to="studyguide" class="mr-5"><span class="btn btn-primary">Study Guide</span></NuxtLink>
             </div>
         </div>
     </div>
@@ -32,7 +34,7 @@ defineProps({
         required: true
     },
     agenda: {
-        type: String,
+        type: Array<String>,
         required: true
     },
     text: {

@@ -24,18 +24,21 @@
             </div>
             <div>
                 <NuxtLink to="/committees/"><span class="footer-title">Committees</span></NuxtLink>
-                <NuxtLink to="/committees/ecosoc/" class="link link-hover">ECOSOC</NuxtLink>
-                <NuxtLink to="/committees/who/" class="link link-hover">WHO</NuxtLink>
                 <NuxtLink to="/committees/unga/" class="link link-hover">UNGA</NuxtLink>
+                <NuxtLink to="/committees/ecosoc/" class="link link-hover">ECOSOC</NuxtLink>
+                <NuxtLink to="/committees/unodc/" class="link link-hover">UNODC</NuxtLink>
                 <NuxtLink to="/committees/unsc/" class="link link-hover">UNSC</NuxtLink>
+                <NuxtLink to="/committees/ecowas/" class="link link-hover">ECOWAS</NuxtLink>
                 <NuxtLink to="/committees/icj/" class="link link-hover">ICJ</NuxtLink>
-                <NuxtLink to="/committees/hcc/" class="link link-hover">HCC</NuxtLink>
                 <NuxtLink to="/committees/jcc/" class="link link-hover">JCC</NuxtLink>
+                <NuxtLink to="/committees/hcc/" class="link link-hover">HCC</NuxtLink>
+                <NuxtLink to="/committees/cjcc/" class="link link-hover">CJCC</NuxtLink>
             </div>
             <div>
                 <NuxtLink><span class="footer-title">Legal</span></NuxtLink>
                 <NuxtLink to="/legal/termsandconditions/" class="link link-hover">Terms and Conditions</NuxtLink>
                 <NuxtLink to="/legal/privacypolicy/" class="link link-hover">Privacy policy</NuxtLink>
+                <NuxtLink to="/legal/cookiepolicy/" class="link link-hover">Cookie policy</NuxtLink>
             </div>
             <div>
                 <span class="footer-title">Social</span>

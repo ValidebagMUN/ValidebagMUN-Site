@@ -7,7 +7,7 @@
 <script setup lang="ts">
 const committee = {
     slug: 'hcc',
-    name: 'Historical Crisis Committee',
+    name: 'Historical Crisis Cabinet',
     agenda: [
         'The French Third Republic'
     ],

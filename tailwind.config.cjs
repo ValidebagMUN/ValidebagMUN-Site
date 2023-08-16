@@ -23,7 +23,7 @@ module.exports = {
                 },
                 century: {
                     "primary": "#CDA077",
-                    "secondary": "#000000",
+                    "secondary": "#E0E1DD",
                     "accent": "#CDA077",
                     "neutral": "#9E652E",
                     "base-100": "#CDA077",

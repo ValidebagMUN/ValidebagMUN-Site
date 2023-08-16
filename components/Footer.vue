@@ -3,7 +3,7 @@
         <footer class="footer p-10 bg-base-200 text-[1rem] text-base-content dark:bg-neutral dark:text-accent">
             <div>
                 <ClientOnly>
-                    <img :src="icon" alt="VMUN icon" class="h-28">
+                    <img :src="icon" alt="VMUN icon" class="h-28" @click="incrementCounter">
                 </ClientOnly>
                 <p>Validebağ Science High School<br />Model United Nations Club</p>
                 <span class="text-neutral dark:text-primary font-semibold">Developed by <a target="_blank"
@@ -81,6 +81,29 @@
 </template>
 
 <script setup lang="ts">
+const counter = ref(0)
+function incrementCounter() {
+    counter.value++
+}
+watchEffect(() => {
+    if(counter.value % 5 == 0 && counter.value != 0) {
+        console.log("theme change!")
+        useHead({
+            htmlAttrs: {
+                'data-theme': 'century',
+                class: 'light'
+            }
+        })
+    }
+    else{
+        useHead({
+            htmlAttrs: {
+                'data-theme': 'vmun'
+            }
+        })
+    }
+})
+
 const props = defineProps({
     isDark: {
         type: Boolean,

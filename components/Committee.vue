@@ -1,8 +1,9 @@
 <template>
-    <div class="hero min-h-[92vh]">
+    <Title>{{ slug.toUpperCase() }} - ValidebağMUN</Title>
+    <div class="hero min-h-[92vh] bg-base-300 dark:bg-neutral text-secondary dark:text-base-100">
         <div class="hero-content flex-col lg:flex-row-reverse">
-            <img v-if="image" :src="image" class="max-w-sm rounded-lg shadow-2xl" />
-            <div class="text-base-100">
+            <img v-if="image" :src="image" class="max-w-sm rounded-lg shadow-2xl bg-base-100 dark:bg-base-300" />
+            <div>
                 <h1 class="mb-3 text-5xl font-bold uppercase">{{ slug }}</h1>
                 <h2 class="text-3xl">{{ name }}</h2>
                 <div class="mb-4 mt-2">
@@ -27,7 +28,7 @@
 defineProps({
     slug: {
         type: String,
-        required: true
+        required: true,
     },
     name: {
         type: String,

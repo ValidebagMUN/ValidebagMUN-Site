@@ -90,4 +90,9 @@ const props = defineProps({
 const icon = computed(() => props.isDark ? '/vmun-light.svg' : '/vmun-dark.svg')
 </script>
 
-<style scoped></style>
+<style scoped>
+.footer-title {
+    opacity: 0.75;
+    @apply text-neutral dark:text-primary
+}
+</style>

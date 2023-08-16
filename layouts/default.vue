@@ -4,8 +4,8 @@
       <Link rel="icon" type="image/svg+xml" :href="favicon"></Link>
     </Head>
     <AntiAI />
-    <SeoKit />
-    <OgImageScreenshot />
+    <!--<SeoKit />
+    <OgImageScreenshot />-->
     <Navbar :is-dark="isDark" />
     <div>
       <slot />

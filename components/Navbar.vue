@@ -1,5 +1,5 @@
 <template>
-    <div class="navbar bg-base-100 dark:bg-secondary dark:text-primary">
+    <div class="navbar bg-base-100 dark:bg-secondary dark:text-base-200">
         <div class="navbar-start">
             <div class="dropdown">
                 <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -39,27 +39,15 @@
                             </svg>
                         </NuxtLink>
                         <ul class="p-2 bg-base-100 dark:bg-secondary dark:text-primary">
-                            <li>
-                                <NuxtLink to="/committees/ecosoc/">ECOSOC</NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink to="/committees/who/">WHO</NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink to="/committees/unga/">UNGA</NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink to="/committees/unsc/">UNSC</NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink to="/committees/icj/">ICJ</NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink to="/committees/hcc/">HCC</NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink to="/committees/jcc/">JCC</NuxtLink>
-                            </li>
+                            <li><NuxtLink to="/committees/unga/">UNGA</NuxtLink></li>
+                            <li><NuxtLink to="/committees/ecosoc/">ECOSOC</NuxtLink></li>
+                            <li><NuxtLink to="/committees/unodc/">UNODC</NuxtLink></li>
+                            <li><NuxtLink to="/committees/unsc/">UNSC</NuxtLink></li>
+                            <li><NuxtLink to="/committees/ecowas/">ECOWAS</NuxtLink></li>
+                            <li><NuxtLink to="/committees/icj/">ICJ</NuxtLink></li>
+                            <li><NuxtLink to="/committees/jcc/">JCC</NuxtLink></li>
+                            <li><NuxtLink to="/committees/hcc/">HCC</NuxtLink></li>
+                            <li><NuxtLink to="/committees/cjcc/">CJCC</NuxtLink></li>
                         </ul>
                     </li>
                     <li>
@@ -101,7 +89,7 @@
                     </ul>
                 </li>
                 <li tabindex="0">
-                    <NuxtLink to="/committees/">
+                    <NuxtLink to="">
                         Committees
                         <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                             viewBox="0 0 24 24">

@@ -1,4 +1,5 @@
 <template>
+    <Title>ValidebağMUN</Title>
     <div class="hero min-h-[92vh]" style="">
         <div class="hero-overlay bg-opacity-60"></div>
         <div class="hero-content text-center text-base-300 dark:text-secondary">

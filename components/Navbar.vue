@@ -50,9 +50,9 @@
                             <li><NuxtLink to="/committees/cjcc/">CJCC</NuxtLink></li>
                         </ul>
                     </li>
-                    <li>
+                    <!-- <li>
                         <NuxtLink to="/faq">FAQ</NuxtLink>
-                    </li>
+                    </li> -->
                     <li>
                         <NuxtLink to="/contact">Contact Us</NuxtLink>
                     </li>
@@ -62,7 +62,7 @@
                 <img class="w-14 ml-1 z-5 hidden lg:flex" :src="icon" @click="incrementCounter" />
             </ClientOnly>
             <NuxtLink to="/"
-                class="btn normal-case bg-inherit hover:bg-inherit text-[#2F3128] border-0 dark:text-primary pl-0.5 text-2xl">
+                class="btn normal-case bg-inherit hover:bg-inherit text-secondary border-0 dark:text-primary pl-0.5 text-2xl">
                 ValidebağMUN
             </NuxtLink>
         </div>
@@ -108,9 +108,9 @@
                         <li><NuxtLink to="/committees/cjcc/">CJCC</NuxtLink></li>
                     </ul>
                 </li>
-                <li>
+                <!-- <li>
                     <NuxtLink to="/faq/">FAQ</NuxtLink>
-                </li>
+                </li> -->
                 <li>
                     <NuxtLink to="/contact/">Contact Us</NuxtLink>
                 </li>

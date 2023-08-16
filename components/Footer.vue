@@ -19,7 +19,7 @@
                 <NuxtLink to="/team/directorate/" class="link link-hover">Directorate</NuxtLink>
                 <NuxtLink to="/conference/venue/" class="link link-hover">Venue</NuxtLink>
                 <NuxtLink to="/conference/schedule/" class="link link-hover">Schedule</NuxtLink>
-                <NuxtLink to="/faq/" class="link link-hover">FAQ</NuxtLink>
+                <!-- <NuxtLink to="/faq/" class="link link-hover">FAQ</NuxtLink> -->
                 <NuxtLink to="/contact/" class="link link-hover">Contact Us</NuxtLink>
             </div>
             <div>

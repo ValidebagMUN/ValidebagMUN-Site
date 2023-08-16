@@ -59,7 +59,7 @@
                 </ul>
             </div>
             <ClientOnly>
-                <img class="w-14 ml-1 z-5 hidden lg:flex" :src="icon" />
+                <img class="w-14 ml-1 z-5 hidden lg:flex" :src="icon" @click="incrementCounter" />
             </ClientOnly>
             <NuxtLink to="/"
                 class="btn normal-case bg-inherit hover:bg-inherit text-[#2F3128] border-0 dark:text-primary pl-0.5 text-2xl">
@@ -125,6 +125,29 @@
 </template>
 
 <script setup lang="ts">
+const counter = ref(0)
+function incrementCounter() {
+    counter.value++
+}
+watchEffect(() => {
+    if(counter.value % 5 == 0 && counter.value != 0) {
+        console.log("theme change!")
+        useHead({
+            htmlAttrs: {
+                'data-theme': 'century',
+                class: 'light'
+            }
+        })
+    }
+    else{
+        useHead({
+            htmlAttrs: {
+                'data-theme': 'vmun'
+            }
+        })
+    }
+})
+
 const props = defineProps({
     isDark: {
         type: Boolean,

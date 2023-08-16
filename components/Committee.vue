@@ -1,6 +1,8 @@
 <template>
     <Title>{{ slug.toUpperCase() }} - ValidebağMUN</Title>
-    <div class="hero min-h-[92vh] bg-base-300 dark:bg-neutral text-secondary dark:text-base-100">
+    <Suspense>
+        <template #default>
+        <div class="hero min-h-[92vh] bg-base-300 dark:bg-neutral text-secondary dark:text-base-100">
         <div class="hero-content flex-col lg:flex-row-reverse">
             <img v-if="image" :src="image" class="max-w-sm rounded-lg shadow-2xl bg-base-100 dark:bg-base-300" />
             <div>
@@ -21,7 +23,15 @@
                 <NuxtLink v-if="studyguide" :to="studyguide" class="mr-5"><span class="btn btn-primary">Study Guide</span></NuxtLink>
             </div>
         </div>
-    </div>
+        </div>
+        </template>
+        <template #fallback>
+            <div class="hero min-h-[92vh] bg-base-300 dark:bg-neutral text-secondary dark:text-base-100">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+            </div>
+            </div>
+        </template>
+    </Suspense>
 </template>
 
 <script setup lang="ts">

@@ -12,6 +12,6 @@
         font-family: 'RetroSignature', cursive;
     }
     body {
-        @apply bg-secondary dark:bg-primary;
+        @apply bg-secondary dark:bg-neutral;
     }
 }

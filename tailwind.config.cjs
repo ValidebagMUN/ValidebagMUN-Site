@@ -21,6 +21,13 @@ module.exports = {
                     "neutral": "#0D1B2A",
                     "base-100": "#E0E1DD",
                 },
+                century: {
+                    "primary": "#CDA077",
+                    "secondary": "#E0E1DD",
+                    "accent": "#CDA077",
+                    "neutral": "#9E652E",
+                    "base-100": "#CDA077",
+                }
             },
         ],
     },

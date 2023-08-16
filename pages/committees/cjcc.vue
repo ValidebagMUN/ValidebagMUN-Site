@@ -6,13 +6,13 @@
 
 <script setup lang="ts">
 const committee = {
-    slug: 'hcc',
-    name: 'Historical Crisis Cabinet',
+    slug: 'cjcc',
+    name: 'Continuous Joint Crisis Committee',
     agenda: [
-        'The French Third Republic'
+        'English War of Succession'
     ],
     text: 'Further information is to be revealed...',
-    image: '/img/hcc.png',
+    image: '/img/cjcc.png',
     usg: '',
     acas: '',
     rop: '',

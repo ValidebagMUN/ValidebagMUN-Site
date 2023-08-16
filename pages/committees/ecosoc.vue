@@ -7,12 +7,15 @@
 <script setup lang="ts">
 const committee = {
     slug: 'ecosoc',
-    name: 'Economic and Social Council',
-    agenda: 'The question of the role of the private sector in the development of the Global South',
-    text: 'The Economic Community of West African States (ECOWAS) is a regional political and economic union that is widely acknowledged as a significant regional bloc within the African Economic Community. Its primary objective is the promotion of \"collective self-sufficiency\" among its member states. This is achieved through the establishment of a unified trade bloc and the development of a comprehensive economic and trading union.\n Moreover, ECOWAS assumes a vital role in maintaining peace and stability in the region. In instances of political unrest and instability within its member countries, ECOWAS has effectively deployed joint military forces as a peacekeeping force. This intervention is intended to address internal conflicts, political instabilities, and civil disorder that may arise.\n In recent years, the Sahel and West Africa have witnessed several coups, leading to a ripple effect akin to the \"Domino Effect\" theory observed during the Cold War. This trend commenced with Mali, subsequently followed by Guinea, Burkina Faso one year later, and most recently Niger in July 2023. Initially, ECOWAS responded to these coups by implementing economic measures and sanctions. However, questions have emerged regarding the effectiveness of these measures, as coups have persisted.\n In the case of Niger, ECOWAS issued a warning to the ruling junta, urgently calling for the restoration of civilian rule within a seven-day timeframe. Unfortunately, the junta did not comply with this request. Consequently, ECOWAS must now adopt a more decisive approach similar to the one employed in Gambia when the former president refused to relinquish power. In that scenario, ECOWAS employed direct military measures to ensure a smooth transition of power. \n Given the current situation in Niger, it is imperative for ECOWAS to respond promptly and effectively in order to uphold the principles of democracy and stability within the region.',
-    image: 'https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg',
-    usg: 'Ahmet Kaya',
-    acas: 'Murat Kaya',
+    name: 'United Nations Economic and Social Council',
+    agenda: [
+        'Economic and social effects of the Israeli occupation on the living conditions of the Palestinian people and the Arab population in occupied Golan',
+        'Situation in Haiti'
+    ],
+    text: 'The United Nations Economic and Social Council (abbreviated as ECOSOC) is one of the six principal organs of the United Nations and serves as a forum for the Member States and their peoples\' innocent voices in misery to be heard, functioning as a platform for social and economic problems of the Member States; ECOSOC holds a bold role establishing core policies and programs to counter our and our nation\'s problems.\n\nPalestine has always been a critical point in the field of geopolitics but the humanitarian consequences of the instability and conflict in the region are most of the time neglected by the governments, the media, and us. People struggling in occupied territories of West Bank, Golan, and the ones with similar fates are in uncertainty with the socioeconomic impacts of the occupation increasing its influence on innocent masses\' lives day by day.\n\nIn a distant corner of our planet, Haiti is subject to similar effects under different circumstances; years of corruption, political instability, and poverty, fueled by the recent assassination of the country\'s now former president, have led to Haiti being stuck in a swamp of misery. Global cooperation and collaboration may bring salvation and a happily-ever-after ending to, the stories of discrimination, degrading, and misery.',
+    image: '/img/ecosoc.png',
+    usg: '',
+    acas: '',
     rop: '',
     studyguide: ''
 }

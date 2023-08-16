@@ -3,7 +3,7 @@
         <footer class="footer p-10 bg-base-200 text-[1rem] text-base-content dark:bg-neutral dark:text-accent">
             <div>
                 <ClientOnly>
-                    <img :src="icon" alt="VMUN icon" class="h-28">
+                    <img :src="icon" alt="VMUN icon" class="h-28" @click="incrementCounter">
                 </ClientOnly>
                 <p>Validebağ Science High School<br />Model United Nations Club</p>
                 <span class="text-neutral dark:text-primary font-semibold">Developed by <a target="_blank"
@@ -19,23 +19,26 @@
                 <NuxtLink to="/team/directorate/" class="link link-hover">Directorate</NuxtLink>
                 <NuxtLink to="/conference/venue/" class="link link-hover">Venue</NuxtLink>
                 <NuxtLink to="/conference/schedule/" class="link link-hover">Schedule</NuxtLink>
-                <NuxtLink to="/faq/" class="link link-hover">FAQ</NuxtLink>
+                <!-- <NuxtLink to="/faq/" class="link link-hover">FAQ</NuxtLink> -->
                 <NuxtLink to="/contact/" class="link link-hover">Contact Us</NuxtLink>
             </div>
             <div>
                 <NuxtLink to="/committees/"><span class="footer-title">Committees</span></NuxtLink>
-                <NuxtLink to="/committees/ecosoc/" class="link link-hover">ECOSOC</NuxtLink>
-                <NuxtLink to="/committees/who/" class="link link-hover">WHO</NuxtLink>
                 <NuxtLink to="/committees/unga/" class="link link-hover">UNGA</NuxtLink>
+                <NuxtLink to="/committees/ecosoc/" class="link link-hover">ECOSOC</NuxtLink>
+                <NuxtLink to="/committees/unodc/" class="link link-hover">UNODC</NuxtLink>
                 <NuxtLink to="/committees/unsc/" class="link link-hover">UNSC</NuxtLink>
+                <NuxtLink to="/committees/ecowas/" class="link link-hover">ECOWAS</NuxtLink>
                 <NuxtLink to="/committees/icj/" class="link link-hover">ICJ</NuxtLink>
-                <NuxtLink to="/committees/hcc/" class="link link-hover">HCC</NuxtLink>
                 <NuxtLink to="/committees/jcc/" class="link link-hover">JCC</NuxtLink>
+                <NuxtLink to="/committees/hcc/" class="link link-hover">HCC</NuxtLink>
+                <NuxtLink to="/committees/cjcc/" class="link link-hover">CJCC</NuxtLink>
             </div>
             <div>
                 <NuxtLink><span class="footer-title">Legal</span></NuxtLink>
                 <NuxtLink to="/legal/termsandconditions/" class="link link-hover">Terms and Conditions</NuxtLink>
                 <NuxtLink to="/legal/privacypolicy/" class="link link-hover">Privacy policy</NuxtLink>
+                <NuxtLink to="/legal/cookiepolicy/" class="link link-hover">Cookie policy</NuxtLink>
             </div>
             <div>
                 <span class="footer-title">Social</span>
@@ -78,6 +81,29 @@
 </template>
 
 <script setup lang="ts">
+const counter = ref(0)
+function incrementCounter() {
+    counter.value++
+}
+watchEffect(() => {
+    if(counter.value % 5 == 0 && counter.value != 0) {
+        console.log("theme change!")
+        useHead({
+            htmlAttrs: {
+                'data-theme': 'century',
+                class: 'light'
+            }
+        })
+    }
+    else{
+        useHead({
+            htmlAttrs: {
+                'data-theme': 'vmun'
+            }
+        })
+    }
+})
+
 const props = defineProps({
     isDark: {
         type: Boolean,
@@ -87,4 +113,9 @@ const props = defineProps({
 const icon = computed(() => props.isDark ? '/vmun-light.svg' : '/vmun-dark.svg')
 </script>
 
-<style scoped></style>
+<style scoped>
+.footer-title {
+    opacity: 0.75;
+    @apply text-neutral dark:text-primary
+}
+</style>

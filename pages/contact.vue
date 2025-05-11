@@ -13,7 +13,12 @@
 </template>
 
 <script setup lang="ts">
-
+useSchemaOrg([
+    defineWebPage({
+        '@type': 'ContactPage',
+        
+    })
+])
 </script>
 
 <style scoped>

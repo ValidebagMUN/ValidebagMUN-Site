@@ -51,17 +51,5 @@ export default defineNuxtConfig({
       "/img",
       "/committees/larevolution"
     ]
-  },
-  schemaOrg: {
-    identity: {
-      type: "Organization",
-      name: "ValidebağMUN",
-      url: "https://www.validebagmun.org",
-      logo: "https://www.validebagmun.org/logo.png",
-      sameAs: [
-        "https://www.instagram.com/validebagmun/",
-        "https://github.com/ValidebagMUN"
-      ]
-    }
-  },
+  }
 })

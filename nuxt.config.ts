@@ -50,6 +50,7 @@ export default defineNuxtConfig({
       "/legal",
       "/img",
       "/committees/larevolution"
-    ]
+    ],
+    blockAiBots: true
   }
 })

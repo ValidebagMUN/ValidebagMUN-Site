@@ -23,7 +23,12 @@
 </template>
 
 <script setup lang="ts">
-
+useSchemaOrg([
+    defineWebPage({
+        name: 'Committees',
+        description: 'Explore the committees of ValidebağMUN\'25.',
+    })
+])
 </script>
 
 <style scoped>

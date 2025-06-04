@@ -16,7 +16,7 @@
 useSchemaOrg([
     defineWebPage({
         '@type': 'ContactPage',
-        
+        description: 'Contact information for ValidebağMUN\'25.',
     })
 ])
 </script>

@@ -36,7 +36,11 @@
 </template>
 
 <script setup lang="ts">
-
+useSchemaOrg([
+    defineWebPage({
+        description: 'Learn how to reach the venue of ValidebağMUN\'25.',
+    })
+])
 </script>
 
 <style scoped>

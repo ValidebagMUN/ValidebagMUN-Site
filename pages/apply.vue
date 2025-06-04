@@ -29,6 +29,12 @@
 </template>
 
 <script setup lang="ts">
+useSchemaOrg([
+    defineWebPage({
+        name: 'Apply',
+        description: 'Application forms and fees for ValidebağMUN\'25.',
+    })
+])
 </script>
 
 <style scoped></style>

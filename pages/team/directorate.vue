@@ -9,16 +9,17 @@
                 </div>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
                     <TeamCard img="/img/team/dk.jpg" name="Dila Karadeniz" title="Head of Public Relations" />
-                    <TeamCard img="/img/team/sya.jpg" name="Şevval Yasemin Aslan" title="Head of the Administrative Staff" />
+                    <TeamCard img="/img/team/sa.jpg" name="Şevval Yasemin Aslan" title="Co-Head of the Administrative Staff" />
+                    <TeamCard img="/img/team/dc.jpg" name="Demir Çimen" title="Co-Head of the Administrative Staff" />
+                </div>
+                <div class="container flex flex-col items-center justify-center lg:flex-row">
+                    <TeamCard img="/img/team/ea.jpg" name="Ahmet Emir Alev" title="Co-Head of Information Technologies" />
+                    <TeamCard img="/img/team/ga.jpg" name="Gizem Aral" title="Co-Head of Information Technologies" />
                     <TeamCard img="/img/team/yb.jpg" name="Yüsra Berk" title="Deputy Head of the Administrative Staff" />
                 </div>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
-                    <TeamCard img="/img/team/aea.jpg" name="Ahmet Emir Alev" title="Co-Head of Information Technologies" />
-                    <TeamCard img="/img/team/ga.jpg" name="Gizem Aral" title="Co-Head of Information Technologies" />
-                </div>
-                <div class="container flex flex-col items-center justify-center lg:flex-row">
                     <TeamCard img="/img/team/id.jpg" name="Irmak Dağlıoğlu" title="Co-Head of Logistics" />
-                    <TeamCard img="/img/team/evb.jpg" name="Eymen Vefa Başar" title="Co-Head of Logistics" />
+                    <TeamCard img="/img/team/vb.jpg" name="Eymen Vefa Başar" title="Co-Head of Logistics" />
                 </div>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
                     <TeamCard img="/img/team/mt.jpg" name="Meva Tunç" title="Co-Head of Press & Media" />

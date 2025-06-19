@@ -16,6 +16,7 @@
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
                     <CommitteeCard img="/img/committees/hcc.png" slug="hcc" name="HCC: Gothic War" />
                     <CommitteeCard img="/img/committees/jcc.png" slug="jcc" name="JCC: Imjin War" />
+                    <CommitteeCard img="/img/committees/fjcc.png" slug="fjcc" name="FJCC: Dance of the Dragons" />
                 </div>
             </div>
         </div>

@@ -2,9 +2,9 @@
     <div>
         <div class="min-h-[89vh] hero" style="background-image: url(/img/team/main.jpg);">
             <div class="hero-overlay bg-opacity-100 opacity-25 bg-base-100"></div>
-            <div class="text-center hero-content text-base-300">
+            <div class="text-center hero-content text-base-content">
                 <div class="max-w-md">
-                    <h1 class="mt-[-4em] mb-5 text-5xl font-bold">Introducing ValidebağMUN</h1>
+                    <h1 class="mt-[2em] mb-5 text-5xl font-bold">Introducing ValidebağMUN</h1>
                     <div class="grid justify-center grid-flow-col gap-5 mb-2 text-center auto-cols-max">
                         <div class="flex flex-col">
                             <span class="font-mono text-5xl countdown">

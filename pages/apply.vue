@@ -1,7 +1,7 @@
 <template>
     <div class="pt-8 hero text-neutral">
         <div class="flex-col hero-content lg:flex-row">
-            <div class="lg:ml-[-5em]">
+            <!-- <div class="lg:ml-[-5em]">
                 <h1 class="text-5xl font-bold mb-6">Application Forms</h1>
                 <div class="flex flex-col gap-4 py-4">
                     <a href="https://forms.gle/PQhq8KoCTkrKjHXF7" target="_blank" rel="noopener"
@@ -23,6 +23,10 @@
                     <h4 class="text-lg">Admins: 675₺</h4>
                     <h4 class="text-lg">Press: 650₺</h4>
                 </div>
+            </div> -->
+            <div>
+                <h1 class="text-5xl font-bold mb-6">Applications to ValidebağMUN'25 have been closed.</h1>
+                <h2 class="text-4xl font-bold mb-6">Thank you for your interest.</h2>
             </div>
         </div>
     </div>

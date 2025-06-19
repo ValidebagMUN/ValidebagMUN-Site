@@ -16,7 +16,7 @@
             <nav>
                 <a><span class="footer-title">Conference</span></a>
                 <NuxtLink to="/" class="link link-hover">Home</NuxtLink>
-                <NuxtLink to="/apply/" class="link link-hover">Apply</NuxtLink>
+                <!-- <NuxtLink to="/apply/" class="link link-hover">Apply</NuxtLink> -->
                 <NuxtLink to="/team/secretariat/" class="link link-hover">Secretariat</NuxtLink>
                 <NuxtLink to="/team/directorate/" class="link link-hover">Directorate</NuxtLink>
                 <NuxtLink to="/venue/" class="link link-hover">Venue</NuxtLink>
@@ -34,6 +34,7 @@
                 <NuxtLink to="/committees/lon/" class="link link-hover">League of Nations</NuxtLink>
                 <NuxtLink to="/committees/hcc/" class="link link-hover">HCC: Gothic War</NuxtLink>
                 <NuxtLink to="/committees/jcc/" class="link link-hover">JCC: Imjin War</NuxtLink>
+                <NuxtLink to="/committees/fjcc/" class="link link-hover">FJCC: Dance of the Dragons</NuxtLink>
             </nav>
             <nav>
                 <a><span class="footer-title">Legal</span></a>

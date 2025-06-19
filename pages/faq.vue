@@ -43,7 +43,7 @@
                 What is the venue of ValidebağMUN?
             </div>
             <div class="collapse-content">
-                <p>The venue of ValidebağMUN is set to be İstanbul Medeniyet University. For information on how to reach the venue, please check our <NuxtLink to="/venue" class="link">venue page</NuxtLink>.</p>
+                <p>The venue of ValidebağMUN is set to be Üsküdar University's Çarşı Campus. For information on how to reach the venue, please check our <NuxtLink to="/venue" class="link">venue page</NuxtLink>.</p>
             </div>
         </div>
         <div class="border collapse collapse-plus join-item">

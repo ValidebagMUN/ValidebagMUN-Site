@@ -100,7 +100,7 @@ useSchemaOrg([
     }),
     defineQuestion({
         question: 'What is the venue of ValidebağMUN?',
-        answer: 'The venue of ValidebağMUN is set to be İstanbul Medeniyet University. For information on how to reach the venue, please check our <a href="/venue" class="link">venue page</a>.'
+        answer: 'The venue of ValidebağMUN is set to be Üsküdar University\'s Çarşı Campus. For information on how to reach the venue, please check our <a href="/venue" class="link">venue page</a>.'
     }),
     defineQuestion({
         question: 'What is the schedule of ValidebağMUN?',

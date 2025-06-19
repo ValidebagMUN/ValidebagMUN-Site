@@ -12,25 +12,21 @@
                 <h3 class="py-4 text-xl">Üsküdar University - Çarşı Campus
                 </h3>
                 <div class="m-0 divider divider-neutral"></div>
-                <h3 class="py-4 text-lg">You can easily reach our venue by following these precise routes:</h3>
-                <!-- <h4 class="font-bold">IETT</h4>
-                <p>Kadıköy: 15BK, 130, 130A, 130Ş, 14A, 19E, 10T, 21G, 21U, 20Ü, 16C, 16K, 14DK, 20E, E11, E10
-                <br>Üsküdar: 320A, 11T, 13M, 16A, 16U, 16F
-                <br>Sabiha Gökçen Airport: E10, E11
-                <br>"İstanbul Medeniyet Üniversitesi" stop
-                <br>
-                <br>Ümraniye: 14ES, 8E, 14B, 14DK
-                <br>Taksim: 129T
-                <br>"Göztepe Köprüsü" stop
-                </p>
-                <br> -->
+                <h3 class="py-4 text-lg">You can easily reach our venue by following these routes:</h3>
+                <h4 class="font-bold">BUS - IETT</h4>
+                <p>Kadıköy: 3ÜS, 12, 12A, 14F
+                <br>Ümraniye / Ataşehir: 9ÜD, 11C, 11D, 11L, 320
+                <br>Cevizlibağ: 500B
+                </p><br>
                 <h4 class="font-bold">METRO</h4>
-                <p>M4 Üsküdar-Samandra Subway Line
+                <p>M5 Üsküdar-Samandra Subway Line
                 <br>Üsküdar Stop</p>
                 <br>
                 <h4 class="font-bold">MARMARAY</h4>
-                <p>B1 Halkalı – Gebze & Ataköy – Pendik Suburbain Train
-                <br>Üsküdar Stop</p>
+                <p>B1 Halkalı - Gebze & Ataköy - Pendik Suburbain Train
+                <br>Üsküdar Stop</p><br>
+                <h4 class="font-bold">FERRY</h4>
+                <p>From Beşiktaş and Eminönü Piers to Üsküdar Pier</p>
             </div>
         </div>
     </div>

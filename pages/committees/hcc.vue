@@ -13,7 +13,8 @@ const committee = {
     image: '/img/committees/bg/hcc.png',
     chair: 'Zehra Betül Duysak - Mars Yakar',
     usg: 'Nisan Duru Şimşek',
-    acas: 'Bihter Ezgi'
+    acas: 'Bihter Ezgi',
+    sg: 'https://docs.google.com/document/d/1f_vfzntwqKP0KZv3nh7dbX7q21IiV650vowzPu5PmT0'
 }
 </script>
 

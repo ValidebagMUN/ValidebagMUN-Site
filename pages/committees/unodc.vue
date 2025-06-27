@@ -15,7 +15,8 @@ const committee = {
     image: '/img/committees/bg/unodc.png',
     usg: 'Elif Rana İşbilir',
     chair: 'Yağmur Kaya, Deputy: Lina Bolgi',
-    acas: 'Melih Büyükbozkoyun'
+    acas: 'Melih Büyükbozkoyun',
+    sg: 'https://docs.google.com/document/d/1Z7RT5u0rNO2Nw81c7Y4qPdzvBwEQ58UOCtuKB1OBTMI'
 }
 </script>
 

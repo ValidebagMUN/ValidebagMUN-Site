@@ -13,7 +13,8 @@ const committee = {
     image: '/img/committees/bg/fjcc.png',
     chair: 'Black Side: Selen Can, Almila Kamator - Green Side: İlker Tınaz, Aslı Yıldız',
     usg: 'Zeynep Yılmaz',
-    acas: 'Aral Kocatürk'
+    acas: 'Aral Kocatürk',
+    sg: 'https://docs.google.com/document/d/16GK7ZPDMHSEqA3B5sBgBuEW9q1D6NwoCeVGPPaBjQ30/'
 }
 </script>
 

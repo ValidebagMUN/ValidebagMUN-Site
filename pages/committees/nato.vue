@@ -15,7 +15,8 @@ const committee = {
     image: '/img/committees/bg/nato.png',
     chair: 'Taha Gani, Deputy: Özgür Doymuş',
     usg: 'Cansu Solmaz Hurşitoğlu',
-    acas: 'İncilay Uysal'
+    acas: 'İncilay Uysal',
+    sg: 'https://docs.google.com/document/d/196DviWfRLyI5KgbsEMcOUzNVPZrEU9jtvHseivhvsmI'
 }
 </script>
 

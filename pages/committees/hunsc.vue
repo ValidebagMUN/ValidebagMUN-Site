@@ -15,7 +15,8 @@ const committee = {
     image: '/img/committees/bg/hunsc.png',
     chair: 'Emre Akın Albayrak, Deputy: Hamza Gezersu',
     usg: 'Ali Eren Sırtıkara',
-    acas: 'Tarık Eren Yılmaz'
+    acas: 'Tarık Eren Yılmaz',
+    sg: 'https://docs.google.com/document/d/1v9qUiWmqirp7t1knY2z54UFRykCjaeT3IeTeF9jRCnA'
 }
 </script>
 

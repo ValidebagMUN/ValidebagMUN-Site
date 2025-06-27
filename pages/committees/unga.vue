@@ -15,7 +15,8 @@ const committee = {
     image: '/img/committees/bg/unga.png',
     chair: 'Nisa Nur Aydın - Efe Başeğmez',
     usg: 'Vuslat Aslı Karataş',
-    acas: 'Reha Pilanlıoğlu'
+    acas: 'Reha Pilanlıoğlu',
+    sg: 'https://docs.google.com/document/d/1cqyjCXkZyk8r5YHKS6p5ydOiRFWPmppEiz4fBR56T0A'
 }
 </script>
 

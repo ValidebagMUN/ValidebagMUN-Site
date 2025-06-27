@@ -13,7 +13,8 @@ const committee = {
     image: '/img/committees/bg/jcc.png',
     chair: 'Korean Side: Ceyda Gürsoy, Eren Kazan - Japanese Side: Selim Dede',
     usg: 'Hüseyin Efe Akpınar',
-    acas: 'Metehan Özdemir'
+    acas: 'Metehan Özdemir',
+    sg: 'https://docs.google.com/document/d/1y17jIMT_zjBQ9Ch5Mrp-ovLwz1O3hQSkMXg_zHChUVk'
 }
 </script>
 

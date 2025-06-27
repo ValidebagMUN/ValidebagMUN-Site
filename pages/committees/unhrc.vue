@@ -15,7 +15,8 @@ const committee = {
     image: '/img/committees/bg/unhrc.png',
     chair: 'Zeynep Naz Cengiz, Deputy: Sencer Koyutürk',
     usg: 'Alya Avgören',
-    acas: 'Duru Yetkin'
+    acas: 'Duru Yetkin',
+    sg: 'https://docs.google.com/document/d/1-VkWfpmKKnRDogjM-PashC7ZPRMBwNkVzla93VBrEVU'
 }
 </script>
 

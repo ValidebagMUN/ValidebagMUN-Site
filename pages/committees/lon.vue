@@ -13,7 +13,8 @@ const committee = {
     image: '/img/committees/bg/lon.png',
     chair: 'Haktan Efe Özgür, Deputy: Berf Elbir',
     usg: 'Emre Tahmaz',
-    acas: 'Ataberk Ata'
+    acas: 'Ataberk Ata',
+    sg: 'https://docs.google.com/document/d/1kbi1PgDW_WAUjxwihm1-XYy5RyGUp-cudoUFqdStNqA'
 }
 </script>
 

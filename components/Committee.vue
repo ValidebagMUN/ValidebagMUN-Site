@@ -2,7 +2,7 @@
     <Head>
         <Title>{{ slug.toUpperCase() }}</Title>
     </Head>
-    <div class="pt-5 hero text-neutral text-xl font-medium min-h-[89vh]" :style="'background-image: url(' + image + ');'">
+    <div class="pt-5 hero text-neutral-content text-xl font-medium min-h-[89vh]" :style="'background-image: url(' + image + ');'">
         <div class="flex-col hero-content lg:flex-row-reverse">
             <div>
                 <h1 class="mb-3 text-5xl font-semibold">{{ slug.includes("cc") ? slug.toUpperCase() : slug }}</h1>
@@ -11,16 +11,16 @@
                     <h3 v-for="item in agenda" class="text-xl font-medium">Agenda Item{{ agenda.length > 1 ? ' ' +
                         (agenda.indexOf(item) + 1) : '' }}: <span class="text-lg">{{ item }}</span></h3>
                 </div>
-                <div class="divider divider-neutral"></div>
+                <div class="divider divider-primary"></div>
                 <p class="whitespace-pre-line">{{ text }}</p>
-                <div v-if="usg || chair" class="divider divider-neutral"></div>
+                <div v-if="usg || chair" class="divider divider-primary"></div>
                 <div class="my-4 text-xl">
                     <h3 v-if="usg"><span class="font-semibold">Under-Secretary-General:</span> {{ usg }}</h3>
                     <h3 v-if="chair"><span class="font-semibold">{{ chair.split(' - ').length > 1 ? 'Presidency: ' :
                             'President: ' }}</span>{{ chair }}</h3>
                     <h3 v-if="acas"><span class="font-semibold">Academic Assistant:</span> {{ acas }}</h3>
                 </div>
-                <div v-if="rop || sg" class="divider divider-neutral"></div>
+                <div v-if="rop || sg" class="divider divider-primary"></div>
                 <div v-if="rop || sg" class="pb-6">
                     <NuxtLink target="_blank" v-if="rop" :to="rop" class="mr-5 btn btn-primary">Rules of Procedure
                     </NuxtLink>

@@ -1,5 +1,5 @@
 <template>
-    <div class="hero text-neutral overflow-clip">
+    <div class="hero text-neutral-content overflow-clip">
         <div class="flex-col hero-content lg:flex-row">
             <div>
                 <h1 class="mt-6 text-5xl font-bold text-center">COMMITTEES</h1>

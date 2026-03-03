@@ -34,9 +34,9 @@
                 </div>
             </div>
         </div>
-        <div class="min-h-[80vh] py-10 pt-20 mx-20 text-neutral">
+        <div class="min-h-[80vh] py-10 pt-20 mx-20 text-base-content">
             <h2 class="text-3xl font-bold">Letter from the Secretary-General</h2>
-            <div class="m-0 my-3 divider divider-neutral"></div>
+            <div class="m-0 my-3 divider divider-primary"></div>
             <h3 class="mb-2 text-2xl font-bold">Most Esteemed Delegates,</h3>
             <p class="text-xl">
             It is both an honor and a true pleasure to welcome each and every one of you to the very first edition of ValidebağMUN. My name is Zeynep Rüya Özdemir, and as your Secretary-General, I can confirm that our team has worked very hard with great diligence in order to create a memorable experience.

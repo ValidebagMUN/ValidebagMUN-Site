@@ -1,5 +1,5 @@
 <template>
-    <div class="hero text-neutral overflow-clip">
+    <div class="hero text-neutral-contentoverflow-clip">
         <div class="flex-col hero-content lg:flex-row">
             <div>
                 <h1 class="my-10 text-5xl font-bold text-center">The Directorate</h1>

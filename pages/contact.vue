@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-8 hero text-neutral">
+    <div class="pt-8 hero text-neutral-content">
         <div class="flex-col hero-content lg:flex-row">
             <div>
                 <h1 class="text-5xl font-bold">Contact</h1>

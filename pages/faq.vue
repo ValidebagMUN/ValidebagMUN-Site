@@ -1,5 +1,5 @@
 <template>
-    <div class="flex-col w-full rounded-none join join-vertical text-neutral">
+    <div class="flex-col w-full rounded-none join join-vertical text-neutral-content">
         <h1 class="mx-8 text-5xl font-bold my-14">Frequently Asked Questions</h1>
         <div class="border collapse collapse-plus join-item">
             <input type="radio" name="faq-accordion" />

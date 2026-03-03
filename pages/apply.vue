@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-8 hero text-neutral">
+    <div class="pt-8 hero text-neutral-content">
         <div class="flex-col hero-content lg:flex-row">
             <!-- <div class="lg:ml-[-5em]">
                 <h1 class="text-5xl font-bold mb-6">Application Forms</h1>

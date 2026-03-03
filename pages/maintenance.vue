@@ -1,6 +1,6 @@
 <template>
     <div class="pt-20 hero">
-        <div class="text-center hero-content text-neutral">
+        <div class="text-center hero-content text-neutral-content">
             <div class="max-w-md">
                 <h1 class="text-5xl font-bold">Hello there</h1>
                 <p class="mt-5">Thanks for your interest! But our site is currently under maintenance so all features

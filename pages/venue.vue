@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-8 hero text-neutral-contentoverflow-clip">
+    <div class="pt-8 hero text-neutral-content overflow-clip">
         <div class="flex-col-reverse hero-content lg:flex-row-reverse">
             <iframe class="lg:h-96 h-80 aspect-[4/3] border-4 border-primary" frameborder="0"
                 referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCzdbHExaPDtTBBU09ntpUauoSbpdQYUQY

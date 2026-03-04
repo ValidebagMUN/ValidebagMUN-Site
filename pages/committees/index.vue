@@ -4,19 +4,19 @@
             <div>
                 <h1 class="mt-6 text-5xl font-bold text-center">COMMITTEES</h1>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
-                    <CommitteeCard img="/img/committees/unga.png" slug="unga" name="United Nations General Assembly" />
-                    <CommitteeCard img="/img/committees/unhrc.png" slug="unhrc" name="United Nations Human Rights Council" />
-                    <CommitteeCard img="/img/committees/unodc.png" slug="unodc" name="United Nations Office on Drugs and Crime" />
+                    <CommitteeCard img="/img/committees/logo/unga.png" slug="unga" name="United Nations General Assembly" />
+                    <CommitteeCard img="/img/committees/logo/unep.png" slug="unep" name="United Nations Environment Programme" />
+                    <CommitteeCard img="/img/committees/logo/unctad.png" slug="unctad" name="United Nations Conference on Trade and Development" />
                 </div>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
-                    <CommitteeCard img="/img/committees/hunsc.png" slug="hunsc" name="Historical United Nations Security Council" />
-                    <CommitteeCard img="/img/committees/nato.png" slug="nato" name="North Atlantic Treaty Council" />
-                    <CommitteeCard img="/img/committees/lon.png" slug="lon" name="League of Nations" />
+                    <CommitteeCard img="/img/committees/logo/unsc.png" slug="unsc" name="United Nations Security Council" />
+                    <CommitteeCard img="/img/committees/logo/interpol.png" slug="interpol" name="International Criminal Police Organization" />
+                    <CommitteeCard img="/img/committees/logo/senate.png" slug="senate" name="US Senate" />
                 </div>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
-                    <CommitteeCard img="/img/committees/hcc.png" slug="hcc" name="HCC: Gothic War" />
-                    <CommitteeCard img="/img/committees/jcc.png" slug="jcc" name="JCC: Imjin War" />
-                    <CommitteeCard img="/img/committees/fjcc.png" slug="fjcc" name="FJCC: Dance of the Dragons" />
+                    <CommitteeCard img="/img/committees/logo/ec.png" slug="ec" name="European Commission" />
+                    <CommitteeCard img="/img/committees/logo/hcc.png" slug="hcc" name="HCC" />
+                    <CommitteeCard img="/img/committees/logo/jcc.png" slug="jcc" name="JCC" />
                 </div>
             </div>
         </div>

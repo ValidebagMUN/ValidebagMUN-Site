@@ -39,7 +39,7 @@
         <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
                 <div class="dropdown dropdown-hover">
-                    <div tabindex="0" role="button" class="m-1 mb-0 text-lg btn btn-ghost no-animation">OUR TEAM</div>
+                    <div tabindex="0" role="button" class="m-1 mb-0 text-lg btn btn-ghost no-animation hover:border-primary">OUR TEAM</div>
                     <ul tabindex="0" class="dropdown-content bg-base-100 z-[1] menu p-3 rounded-box w-34 font-semibold">
                         <li>
                             <NuxtLink to="/team/secretariat">SECRETARIAT</NuxtLink>
@@ -49,9 +49,9 @@
                         </li>
                     </ul>
                 </div>
-                <NuxtLink tabindex="0" role="button" class="m-1 text-lg btn btn-ghost" to="/committees">COMMITTEES</NuxtLink>
+                <NuxtLink tabindex="0" role="button" class="m-1 text-lg btn btn-ghost hover:border-primary" to="/committees">COMMITTEES</NuxtLink>
                 <div class="dropdown dropdown-hover">
-                    <div tabindex="0" role="button" class="m-1 mb-0 text-lg btn btn-ghost no-animation">ABOUT</div>
+                    <div tabindex="0" role="button" class="m-1 mb-0 text-lg btn btn-ghost no-animation hover:border-primary">ABOUT</div>
                     <ul tabindex="0" class="dropdown-content bg-base-100 z-[1] menu p-2 rounded-box w-32 font-semibold">
                         <li>
                             <NuxtLink to="/venue">VENUE</NuxtLink>
@@ -61,7 +61,7 @@
                         </li>
                     </ul>
                 </div>
-                <NuxtLink tabindex="0" role="button" class="m-1 text-lg btn btn-ghost" to="/faq">FAQ</NuxtLink>
+                <NuxtLink tabindex="0" role="button" class="m-1 text-lg btn btn-ghost hover:border-primary" to="/faq">FAQ</NuxtLink>
                 <NuxtLink tabindex="0" role="button" class="m-1 text-lg btn btn-ghost hover:border-primary" to="/contact">CONTACT</NuxtLink>
             </ul>
         </div>

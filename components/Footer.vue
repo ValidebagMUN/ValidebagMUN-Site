@@ -27,14 +27,14 @@
             <nav>
                 <a><span class="footer-title">Committees</span></a>
                 <NuxtLink to="/committees/unga/" class="link link-hover">UNGA</NuxtLink>
-                <NuxtLink to="/committees/unhrc/" class="link link-hover">UNHRC</NuxtLink>
-                <NuxtLink to="/committees/unodc/" class="link link-hover">UNODC</NuxtLink>
-                <NuxtLink to="/committees/hunsc/" class="link link-hover">HUNSC</NuxtLink>
-                <NuxtLink to="/committees/nato/" class="link link-hover">NATO</NuxtLink>
-                <NuxtLink to="/committees/lon/" class="link link-hover">League of Nations</NuxtLink>
-                <NuxtLink to="/committees/hcc/" class="link link-hover">HCC: Gothic War</NuxtLink>
-                <NuxtLink to="/committees/jcc/" class="link link-hover">JCC: Imjin War</NuxtLink>
-                <NuxtLink to="/committees/fjcc/" class="link link-hover">FJCC: Dance of the Dragons</NuxtLink>
+                <NuxtLink to="/committees/unep" class="link link-hover">UNEP</NuxtLink>
+                <NuxtLink to="/committees/unctad" class="link link-hover">UNCTAD</NuxtLink>
+                <NuxtLink to="/committees/unsc/" class="link link-hover">UNSC</NuxtLink>
+                <NuxtLink to="/committees/interpol" class="link link-hover">INTERPOL</NuxtLink>
+                <NuxtLink to="/committees/senate" class="link link-hover">US Senate</NuxtLink>
+                <NuxtLink to="/committees/ec/" class="link link-hover">EC</NuxtLink>
+                <NuxtLink to="/committees/jcc/" class="link link-hover">JCC</NuxtLink>
+                <NuxtLink to="/committees/hcc/" class="link link-hover">HCC</NuxtLink>
             </nav>
             <nav>
                 <a><span class="footer-title">Legal</span></a>

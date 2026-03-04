@@ -62,7 +62,7 @@
                     </ul>
                 </div>
                 <NuxtLink tabindex="0" role="button" class="m-1 text-lg btn btn-ghost" to="/faq">FAQ</NuxtLink>
-                <NuxtLink tabindex="0" role="button" class="m-1 text-lg btn btn-ghost" to="/contact">CONTACT</NuxtLink>
+                <NuxtLink tabindex="0" role="button" class="m-1 text-lg btn btn-ghost hover:border-primary" to="/contact">CONTACT</NuxtLink>
             </ul>
         </div>
         <div class="mr-1 navbar-end">

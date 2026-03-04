@@ -6,12 +6,12 @@
 
 <script setup lang="ts">
 const committee = {
-    slug: 'JCC',
-    name: 'The Siege of La Rochelle',
-    agenda: [],
+    slug: 'EC',
+    name: 'European Commission',
+    agenda: [''],
     text: '',
     image: '/img/committees/bg/bg.png',
-    logo: '/img/committees/logo/jcc.png',
+    logo: '/img/committees/logo/ec.png',
     chair: '',
     usg: ''
 }

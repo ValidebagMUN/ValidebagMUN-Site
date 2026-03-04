@@ -11,7 +11,7 @@
                 <h1 class="text-5xl font-bold">Venue</h1>
                 <h3 class="py-4 text-xl">Üsküdar University - Çarşı Campus
                 </h3>
-                <div class="m-0 divider divider-primary"></div>
+                <div class="m-0 divider divider-info"></div>
                 <h3 class="py-4 text-lg">You can easily reach our venue by following these routes:</h3>
                 <h4 class="font-bold">BUS - IETT</h4>
                 <p>Kadıköy: 3ÜS, 12, 12A, 14F

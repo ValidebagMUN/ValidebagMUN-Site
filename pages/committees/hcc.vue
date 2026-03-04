@@ -1,20 +1,19 @@
 <template>
     <div>
-        <Committee v-bind="committee" />
+        <Committee v-bind="committee"/>
     </div>
 </template>
 
 <script setup lang="ts">
 const committee = {
-    slug: 'hcc',
-    name: 'The Gothic War (535-554 BC)',
-    agenda: [],
-    text: 'Join the Committee of The Gothic War and take on the role of a powerful cabinet member within Gothic leadership. \n As the Western Roman Empire teeters on the edge of collapse, the Goths—once Roman allies, now betrayed and starving—rally under the command of Alaric I to claim their independence and reshape their destiny. Step into a world of strategic warfare and high-stakes diplomacy, where every decision can determine the fate of a rising Gothic kingdom. \n Will you negotiate with Rome, unite fractured tribes, or march boldly toward conquest? Navigate the treacherous political landscape of late antiquity and lead your people through one of the most decisive conflicts of the 5th century. The empire is crumbling. \n The time to rise is now.',
-    image: '/img/committees/bg/hcc.png',
-    chair: 'Zehra Betül Duysak - Mars Yakar',
-    usg: 'Nisan Duru Şimşek',
-    acas: 'Bihter Ezgi',
-    sg: 'https://docs.google.com/document/d/1f_vfzntwqKP0KZv3nh7dbX7q21IiV650vowzPu5PmT0'
+    slug: 'HCC',
+    name: 'Cabinet of Kuomintang',
+    agenda: ['The Northern Expedition (1926)'],
+    text: 'The launch of the Northern Expedition in 1926 marked a decisive turning point in modern Chinese history, as the Kuomintang government sought to end warlord rule and reunify the country under a centralized revolutionary authority. While the campaign achieved significant military successes, it exposed deep structural challenges, including fragmented regional loyalties, ideological divisions within the United Front, and dependence on foreign military and political assistance. As the expedition advanced northward, tensions between Nationalist and Communist factions, competing ambitions of regional commanders, and uncertainty over post-war governance increasingly threatened internal cohesion. With continuing warlord resistance, rising social unrest in liberated territories, and growing international scrutiny, the risk of fragmentation and political rupture remained acute. The Cabinet of the Kuomintang Government is therefore tasked with assessing the progress and consequences of the Northern Expedition, managing civil–military coordination, and determining a sustainable path toward national unification and long-term political stability in China.',
+    image: '/img/committees/bg/bg.png',
+    logo: '/img/committees/logo/hcc.png',
+    chair: '',
+    usg: ''
 }
 </script>
 

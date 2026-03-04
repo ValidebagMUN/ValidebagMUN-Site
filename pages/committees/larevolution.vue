@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Committee v-bind="committee"/>
+        <Committee v-bind="committee" />
     </div>
 </template>
 

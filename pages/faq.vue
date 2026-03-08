@@ -43,7 +43,7 @@
                 What is the venue of ValidebağMUN?
             </div>
             <div class="collapse-content">
-                <p>The venue of ValidebağMUN is set to be Üsküdar University's Çarşı Campus. For information on how to reach the venue, please check our <NuxtLink to="/venue" class="link">venue page</NuxtLink>.</p>
+                <p>The venue of ValidebağMUN is set to be the Validebağ Science High School. For information on how to reach the venue, please check our <NuxtLink to="/venue" class="link">venue page</NuxtLink>.</p>
             </div>
         </div>
         <div class="border collapse collapse-plus join-item">
@@ -52,7 +52,7 @@
                 What is the schedule of ValidebağMUN?
             </div>
             <div class="collapse-content">
-                <p>The scheduled date of this years edition of ValidebağMUN is 30 June and 1-2 July 2025. <NuxtLink to="/schedule" class="link">here</NuxtLink>.</p>
+                <p>The scheduled date of this years edition of ValidebağMUN is 24-25-26 April 2026. <NuxtLink to="/schedule" class="link">here</NuxtLink>.</p>
             </div>
         </div>
         <div class="border collapse collapse-plus join-item">

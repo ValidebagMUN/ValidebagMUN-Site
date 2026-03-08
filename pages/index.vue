@@ -38,21 +38,21 @@
         <div class="min-h-[80vh] py-10 pt-20 mx-20 text-base-content">
             <h2 class="text-3xl font-bold">Letter from the Secretary-General</h2>
             <div class="m-0 my-3 divider divider-info"></div>
-            <h3 class="mb-2 text-2xl font-bold">Most Esteemed Delegates,</h3>
+            <h3 class="mb-2 text-2xl font-bold">Most Esteemed Delegates of ValidebagMUN’26,</h3>
             <p class="text-xl">
-            It is both an honor and a true pleasure to welcome each and every one of you to the very first edition of ValidebağMUN. My name is Zeynep Rüya Özdemir, and as your Secretary-General, I can confirm that our team has worked very hard with great diligence in order to create a memorable experience.
+            It is both an honour and a true pleasure to welcome all of you to ValidebagMUN’26. My name is Zehra Betül Duysak, and as your Secretary-General, I can confirm that our dedicated team has worked very hard with great diligence in order to create a memorable experience.
             <br><br>
-            We have poured great effort into designing committees that provide an inclusive environment, where delegates can express themselves freely, regardless of their previous experience or background. Our aim was to eliminate any sense of hierarchy and ensure a space where everyone feels equally valued and empowered to speak.
+            We have poured great effort into designing committees that provide an inclusive environment, where delegates can express themselves freely, regardless of their previous experience or background. We aimed to eliminate any sense of hierarchy and ensure a space where everyone feels equally valued and empowered to speak.
             <br><br>
-            In preparation for the sessions ahead, we have created comprehensive study guides that dive into each agenda item with careful attention to detail. These guides are meant to not only inform, but to inspire you deeply with the issues at hand and think critically about possible solutions. Apart from the committees, we have also prepared a variety of social activities and breaks that will allow you to relax, recharge, and build friendships with other delegates.
+            In preparation for the sessions ahead, we have created comprehensive study guides that dive into each agenda item with careful attention to detail. These guides are meant not only to inform but also to inspire you to think deeply about the issues at hand and to consider possible solutions. Apart from the committees, we have also prepared a variety of social activities and breaks that will allow you to relax, recharge, and build friendships with other delegates.
             <br><br>
-            Throughout these three days, I hope you take full advantage of this opportunity, not only to show yourself as a delegate, but to connect with people who challenge you, support you, and remind you why Model United Nations is such a unique and special experience. While getting to know both the academy and organization, I whole-heartedly hope you have a great three days and get to know people that make you grateful you met them.
+            Throughout these three days, I hope you take full advantage of this opportunity, not only to show yourself as a delegate, but to connect with people who challenge you, support you, and remind you why Model United Nations is such a unique and special experience. While getting to know both the academy and organisation, I wholeheartedly hope you have a great three days and get to know people who make you grateful you met them.
             <br><br>
             Thank you for being a part of this journey. I wish you all the very best in your debates, discussions, and discoveries.
             <br><br>
-            Buona fortuna,
+            With my warmest regards...
             </p>
-            <h3 class="mt-4 text-2xl font-bold">Zeynep Rüya Özdemir<br>Secretary-General of ValidebağMUN'25</h3>
+            <h3 class="mt-4 text-2xl font-bold">Zehra Betül Duysak<br>Secretary-General of ValidebağMUN'25</h3>
         </div>
     </div>
 </template>

@@ -52,7 +52,7 @@
             <br><br>
             With my warmest regards...
             </p>
-            <h3 class="mt-4 text-2xl font-bold">Zehra Betül Duysak<br>Secretary-General of ValidebağMUN'25</h3>
+            <h3 class="mt-4 text-2xl font-bold">Zehra Betül Duysak<br>Secretary-General of ValidebağMUN'26</h3>
         </div>
     </div>
 </template>

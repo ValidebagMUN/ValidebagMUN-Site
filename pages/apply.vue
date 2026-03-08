@@ -4,15 +4,15 @@
             <div class="lg:ml-[-5em]">
                 <h1 class="text-5xl font-bold mb-6">Application Forms</h1>
                 <div class="flex flex-col gap-4 py-4">
-                    <a href="" target="_blank" rel="noopener"
+                    <a href="https://forms.gle/TMPvUDZzNJZZvtam9" target="_blank" rel="noopener"
                         class="btn btn-primary text-lg py-6">Apply as a Delegation</a>
-                    <a href="" target="_blank" rel="noopener"
+                    <a href="https://forms.gle/GFESj5MWEVhkS3xh6" target="_blank" rel="noopener"
                         class="btn btn-primary text-lg py-6">Apply as an Individual Delegate</a>
-                    <a href="" target="_blank" rel="noopener"
+                    <a href="https://forms.gle/KrPKgRoJTUrW6vqKA" target="_blank" rel="noopener"
                         class="btn btn-primary text-lg py-6">Apply as an Admin</a>
-                    <a href="" target="_blank" rel="noopener"
+                    <a href="https://forms.gle/E3rqkZF6ATHa6qMW8" target="_blank" rel="noopener"
                         class="btn btn-primary text-lg py-6">Apply as a Press Member</a>
-                    <a href="" target="_blank" rel="noopener"
+                    <a href="https://forms.gle/Ai3nMQhkW3CobogcA" target="_blank" rel="noopener"
                         class="btn btn-primary text-lg py-6">Apply as a PR Member</a>
                 </div>
             </div>

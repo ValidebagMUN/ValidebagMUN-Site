@@ -58,11 +58,11 @@
 </template>
 
 <script setup lang="ts">
-const date = ref({ days: 0, hours: 12, minutes: 83, seconds: 0 });
+const date = ref({ days: 1, hours: 9, minutes: 0, seconds: 7 });
 onNuxtReady(() => {
     setInterval(() => {
         const eventStartTime = Date.now();
-        const eventEndTime = new Date('2026-04-24 00:00:00Z');
+        const eventEndTime = new Date('2026-10-17 00:00:00Z');
         const duration = eventEndTime.valueOf() - eventStartTime.valueOf();
         date.value = { days: Math.floor(duration / (1000 * 60 * 60 * 24)), hours: Math.floor((duration % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)), minutes: Math.floor((duration % (1000 * 60 * 60)) / (1000 * 60)), seconds: Math.floor((duration % (1000 * 60)) / 1000) };
     }, 1000);

@@ -31,11 +31,11 @@ const isDark = true
 useSchemaOrg([
     defineWebPage(),
     defineWebSite({
-        name: 'ValidebağMUN',
+        name: 'ValidebağTrain',
         description: 'Website of the Validebağ Model United Nations Conference.'
     }),
     defineOrganization({
-        name: 'ValidebağMUN',
+        name: 'ValidebağTrain',
         logo: '/logo.png',
         url: "https://www.validebagmun.org",
         sameAs: [

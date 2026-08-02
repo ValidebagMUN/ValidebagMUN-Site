@@ -2,6 +2,9 @@
     <div class="hero text-neutral-content overflow-clip">
         <div class="flex-col hero-content lg:flex-row">
             <div>
+                <TBA />
+                
+                <!-- 
                 <h1 class="mt-6 text-5xl font-bold text-center">COMMITTEES</h1>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
                     <CommitteeCard img="/img/committees/logo/unga.png" slug="unga" name="United Nations General Assembly" />
@@ -17,7 +20,7 @@
                     <CommitteeCard img="/img/committees/logo/ec.png" slug="ec" name="European Commission" />
                     <CommitteeCard img="/img/committees/logo/hcc.png" slug="hcc" name="HCC" />
                     <CommitteeCard img="/img/committees/logo/jcc.png" slug="jcc" name="JCC" />
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -27,7 +30,7 @@
 useSchemaOrg([
     defineWebPage({
         name: 'Committees',
-        description: 'Explore the committees of ValidebağMUN\'25.',
+        description: 'Explore the committees of ValidebağTrain\'26.',
     })
 ])
 </script>

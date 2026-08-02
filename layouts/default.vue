@@ -6,7 +6,7 @@
             <Meta name="canonical" content="https://www.validebagmun.org"></Meta>
             <Meta name="robots" content="noai, noimageai"></Meta>
             <Meta name="description" content="Website of the Validebağ Model United Nations Conference."></Meta>
-            <Meta name="keywords" contens="validebağ, validebağmun, mun, model united nations, high school, united nations"></Meta>
+            <Meta name="keywords" contens="validebağ, validebağmun, validebağtrain, mun, model united nations, high school, united nations"></Meta>
         </Head>
         <Header :is-dark="isDark" />
         <div class="min-h-[91vh] bg-base-100">

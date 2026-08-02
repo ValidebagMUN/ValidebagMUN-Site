@@ -16,7 +16,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
     },
-    maintenance: 'true'
+    maintenance: 'false'
   },
   colorMode: {
     preference: 'dark',
@@ -32,7 +32,7 @@ export default defineNuxtConfig({
   },
   site: {
     url: 'https://www.validebagmun.org',
-    name: 'ValidebağMUN',
+    name: 'ValidebağTrain',
     description: 'Validebağ Model United Nations Conference',
     defaultLocale: 'en',
   },

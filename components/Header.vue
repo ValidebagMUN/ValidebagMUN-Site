@@ -66,7 +66,7 @@
             </ul>
         </div>
         <div class="mr-1 navbar-end">
-            <NuxtLink tabindex="0" role="button" to="/apply" class="btn btn-primary">APPLY NOW</NuxtLink>
+            <!-- <NuxtLink tabindex="0" role="button" to="/apply" class="btn btn-primary">APPLY NOW</NuxtLink> -->
         </div>
     </div>
 </template>

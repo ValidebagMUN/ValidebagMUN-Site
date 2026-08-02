@@ -5,7 +5,7 @@
             <div class="hero-overlay bg-opacity-100 opacity-25 bg-base-100"></div>
             <div class="text-center hero-content text-base-content">
                 <div class="max-w-md">
-                    <h1 class="mt-[2em] mb-5 text-5xl font-bold">Introducing ValidebağMUN 2026</h1>
+                    <h1 class="mt-[2em] mb-5 text-5xl font-bold">Introducing ValidebağTrain 2026</h1>
                     <div class="grid justify-center grid-flow-col gap-5 mb-2 text-center auto-cols-max">
                         <div class="flex flex-col">
                             <span class="font-mono text-5xl countdown">
@@ -36,7 +36,7 @@
             </div>
         </div>
         <div class="min-h-[80vh] py-10 pt-20 mx-20 text-base-content">
-            <h2 class="text-3xl font-bold">Letter from the Secretary-General</h2>
+            <!-- <h2 class="text-3xl font-bold">Letter from the Secretary-General</h2>
             <div class="m-0 my-3 divider divider-info"></div>
             <h3 class="mb-2 text-2xl font-bold">Most Esteemed Delegates of ValidebagMUN’26,</h3>
             <p class="text-xl">
@@ -52,13 +52,13 @@
             <br><br>
             With my warmest regards...
             </p>
-            <h3 class="mt-4 text-2xl font-bold">Zehra Betül Duysak<br>Secretary-General of ValidebağMUN'26</h3>
+            <h3 class="mt-4 text-2xl font-bold">Zehra Betül Duysak<br>Secretary-General of ValidebağMUN'26</h3> -->
         </div>
     </div>
 </template>
 
 <script setup lang="ts">
-const date = ref({ days: 1, hours: 9, minutes: 0, seconds: 7 });
+const date = ref({ days: 55, hours: 22, minutes: 33, seconds: 44 });
 onNuxtReady(() => {
     setInterval(() => {
         const eventStartTime = Date.now();

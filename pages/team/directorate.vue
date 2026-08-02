@@ -1,7 +1,8 @@
 <template>
     <div class="hero text-neutral-content overflow-clip">
         <div class="flex-col hero-content lg:flex-row">
-            <div>
+            <TBA/>
+            <!-- <div>
                 <h1 class="my-10 text-5xl font-bold text-center">The Directorate</h1>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
                     <TeamCard img="/img/team/iu.jpg" name="Nil Üzüm" title="Director-General" />
@@ -16,7 +17,7 @@
                     <TeamCard img="/img/team/aka.jpg" name="Barkın Yıldırım" title="Co-Head of Finance" />
                     <TeamCard img="/img/team/aka.jpg" name="İpek Bahadırlı" title="Head of Finance" />
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </template>

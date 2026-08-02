@@ -57,7 +57,7 @@
 <script setup lang="ts">
 useSchemaOrg([
     defineWebPage({
-        description: 'Learn how to reach the venue of Validebağ MUN 2025.',
+        description: 'Learn how to reach the venue of Validebağ Train 2026.',
     })
 ])
 </script>

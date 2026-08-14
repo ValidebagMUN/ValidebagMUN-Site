@@ -1,18 +1,17 @@
 <template>
     <div class="hero text-neutral-content overflow-clip">
         <div class="flex-col hero-content lg:flex-row">
-            <TBA />
-            <!-- <div>
+            <div>
                 <h1 class="my-10 text-5xl font-bold text-center">The Secretariat</h1>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
-                    <TeamCard img="/img/team/zbd.jpg" name="Reha Pilanlıoğlu" title="Secretary-General" />
-                    <TeamCard img="/img/team/yk.jpg" name="İncilay Uysal" title="Organization Advisor" />
+                    <TeamCard img="/img/team/zbd.jpg" name="Zehra Betül Duysak" title="Academic Advisor" />
+                    <TeamCard img="/img/team/yk.jpg" name="Yağmur Kaya" title="Academic Advisor" />
                 </div>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
-                    <TeamCard img="/img/team/rp.jpg" name="Hazal Sakarya" title="Head of Academy" />
-                    <TeamCard img="/img/team/kk.jpg" name="??" title="Head of Crisis" />
+                    <TeamCard img="/img/team/rp.jpg" name="Reha Pilanlıoğlu" title="Secretary-General" />
+                    <TeamCard img="/img/team/hs.jpg" name="Hazal Sakarya" title="Deputy Secretary-General" />
                 </div>
-            </div> -->
+            </div>
         </div>
     </div>
 </template>

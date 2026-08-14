@@ -2,25 +2,20 @@
     <div class="hero text-neutral-content overflow-clip">
         <div class="flex-col hero-content lg:flex-row">
             <div>
-                <TBA />
-                
-                <!-- 
                 <h1 class="mt-6 text-5xl font-bold text-center">COMMITTEES</h1>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
-                    <CommitteeCard img="/img/committees/logo/unga.png" slug="unga" name="United Nations General Assembly" />
-                    <CommitteeCard img="/img/committees/logo/unep.png" slug="unep" name="United Nations Environment Programme" />
-                    <CommitteeCard img="/img/committees/logo/unctad.png" slug="unctad" name="United Nations Conference on Trade and Development" />
+                    <CommitteeCard img="/img/committees/logo/disec.png" slug="disec" name="Disarmament and International Security Committee" />
+                    <CommitteeCard img="/img/committees/logo/sochum.png" slug="sochum" name="Social, Humanitarian and Cultural Committee" />
+                    <CommitteeCard img="/img/committees/logo/unhrc.png" slug="unhrc" name="United Nations Human Rights Council" />
                 </div>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
-                    <CommitteeCard img="/img/committees/logo/unsc.png" slug="unsc" name="United Nations Security Council" />
-                    <CommitteeCard img="/img/committees/logo/interpol.png" slug="interpol" name="International Criminal Police Organization" />
-                    <CommitteeCard img="/img/committees/logo/senate.png" slug="senate" name="US Senate" />
+                    <CommitteeCard img="/img/committees/logo/unep.png" slug="unep" name="United Nations Environmental Programme" />
+                    <CommitteeCard img="/img/committees/logo/unodc.png" slug="unodc" name="United Nations Office of Drugs and Crime" />
+                    <CommitteeCard img="/img/committees/logo/who.png" slug="who" name="World Health Organization" />
                 </div>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
-                    <CommitteeCard img="/img/committees/logo/ec.png" slug="ec" name="European Commission" />
-                    <CommitteeCard img="/img/committees/logo/hcc.png" slug="hcc" name="HCC" />
-                    <CommitteeCard img="/img/committees/logo/jcc.png" slug="jcc" name="JCC" />
-                </div> -->
+                    <CommitteeCard img="/img/committees/logo/hunsc.png" slug="hunsc" name="Historical United Nations Security Council" />
+                </div> 
             </div>
         </div>
     </div>

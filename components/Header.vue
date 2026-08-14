@@ -1,7 +1,7 @@
 <template>
     <div class="navbar bg-base-100 h-22">
         <div class="navbar-start">
-            <div class="dropdown">
+            <div class="dropdown z-30">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
@@ -30,10 +30,10 @@
                 </ul>
             </div>
 
-            <NuxtImg src="/vmun-white.svg" alt="ValidebagMUN logo" class="h-16 ml-1 hover:animate-pulse"
-                v-show="isDark" />
-            <NuxtImg src="/vmun-black.svg" alt="ValidebagMUN logo" class="h-16 ml-1 hover:animate-pulse"
-                v-show="!isDark" />
+            <NuxtLink to="/"><NuxtImg src="/vmun-white.svg" alt="ValidebagMUN logo" class="h-16 ml-1 hover:animate-pulse"
+                v-show="isDark" /></NuxtLink>
+            <NuxtLink to="/"><NuxtImg src="/vmun-black.svg" alt="ValidebagMUN logo" class="h-16 ml-1 hover:animate-pulse"
+                v-show="!isDark" /></NuxtLink>
             <NuxtLink id="logo" class="btn btn-ghost text-2xl mx-0 pl-0 pr-1.5 max-sm:hidden hover:bg-inherit hover:border-base-100" to="/">ValidebağTrain</NuxtLink>
         </div>
         <div class="navbar-center hidden lg:flex">
@@ -66,7 +66,7 @@
             </ul>
         </div>
         <div class="mr-1 navbar-end">
-            <!-- <NuxtLink tabindex="0" role="button" to="/apply" class="btn btn-primary">APPLY NOW</NuxtLink> -->
+            <NuxtLink tabindex="0" role="button" to="/apply" class="btn btn-primary">APPLY NOW</NuxtLink>
         </div>
     </div>
 </template>

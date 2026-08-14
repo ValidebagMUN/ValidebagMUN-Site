@@ -6,12 +6,12 @@
 
 <script setup lang="ts">
 const committee = {
-    slug: 'SOCHUM',
-    name: 'Social, Humanitarian and Cultural Committee',
-    agenda: ['Protecting Journalists in Conflict Zones and Against Politically Motivated Detention'],
+    slug: 'H-UNSC',
+    name: 'Historical United Nations Security Council',
+    agenda: ['Strengthening International Regulations and Oversight of Civilian Nuclear Technologies in Post-Chernobyl Era'],
     text: '',
     image: '/img/committees/bg/bg.png',
-    logo: '/img/committees/logo/sochum.png',
+    logo: '/img/committees/logo/hunsc.png',
     chair: '',
     usg: ''
 }

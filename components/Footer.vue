@@ -26,13 +26,13 @@
             </nav>
             <nav>
                 <a><span class="footer-title">Committees</span></a>
-                <!-- <NuxtLink to="/committees/disec/" class="link link-hover">DISEC</NuxtLink>
+                <NuxtLink to="/committees/disec/" class="link link-hover">DISEC</NuxtLink>
                 <NuxtLink to="/committees/sochum/" class="link link-hover">SOCHUM</NuxtLink>
-                <NuxtLink to="/committees/unsc/" class="link link-hover">UNSC</NuxtLink>
-                <NuxtLink to="/committees/unep" class="link link-hover">UNEP</NuxtLink>
-                <NuxtLink to="/committees/who/" class="link link-hover">WHO</NuxtLink>
                 <NuxtLink to="/committees/unhrc/" class="link link-hover">UNHRC</NuxtLink>
-                <NuxtLink to="/committees/unodc/" class="link link-hover">UNODC</NuxtLink> -->
+                <NuxtLink to="/committees/unep" class="link link-hover">UNEP</NuxtLink>
+                <NuxtLink to="/committees/unodc/" class="link link-hover">UNODC</NuxtLink>
+                <NuxtLink to="/committees/who/" class="link link-hover">WHO</NuxtLink>
+                <NuxtLink to="/committees/hunsc/" class="link link-hover">H-UNSC</NuxtLink>
             </nav>
             <nav>
                 <a><span class="footer-title">Legal</span></a>

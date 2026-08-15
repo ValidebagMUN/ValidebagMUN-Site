@@ -11,6 +11,9 @@
                     <TeamCard img="/img/team/rp.jpg" name="Reha Pilanlıoğlu" title="Secretary-General" />
                     <TeamCard img="/img/team/hs.jpg" name="Hazal Sakarya" title="Deputy Secretary-General" />
                 </div>
+                <div class="container flex flex-col items-center justify-center lg:flex-row">
+                    <TeamCard img="/img/team/smy.jpg" name="Semiha Masal Yaylacı" title="Head of Academy" />
+                </div>
             </div>
         </div>
     </div>

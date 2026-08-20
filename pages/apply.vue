@@ -6,7 +6,7 @@
                 <div class="flex flex-col gap-4 py-4">
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLScvrMhn7sNihzMJUOU1xQwhH3wv-Tv6WBTG6KqpQUe-LrrRHQ/viewform?usp=header" target="_blank" rel="noopener"
                         class="btn btn-primary text-lg py-6">Apply as a Delegation</a>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScF7AplSzyK-m31LV93es2o1UMuil-IE_pO8U4kwod6I39klA/viewform?usp=header" target="_blank" rel="noopener"
+                    <a href="https://www.biletimgo.com/etkinlik/validebag-train26-30127" target="_blank" rel="noopener"
                         class="btn btn-primary text-lg py-6">Apply as an Individual Delegate</a>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSexn_l9m0zl5xVRV_ntjlo1BN3J_pVmkmj0kS89O--Pb4C_JA/viewform?usp=header" target="_blank" rel="noopener"
                         class="btn btn-primary text-lg py-6">Apply as an Admin</a>

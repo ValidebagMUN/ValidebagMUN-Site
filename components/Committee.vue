@@ -22,6 +22,7 @@
                     <h3 v-if="chair"><span class="font-semibold">{{ chair.split(' - ').length > 1 ? 'Presidency: ' :
                             'President: ' }}</span>{{ chair }}</h3>
                     <h3 v-if="acas"><span class="font-semibold">Academic Assistant:</span> {{ acas }}</h3>
+                    <h3 v-if="ctm"><span class="font-semibold">Crisis Team Member:</span> {{ ctm }}</h3>
                 </div>
                 <div v-if="rop || sg" class="divider divider-info"></div>
                 <div v-if="rop || sg" class="pb-6">
@@ -69,6 +70,10 @@ defineProps({
         required: false
     },
     acas: {
+        type: String,
+        required: false
+    },
+    ctm: {
         type: String,
         required: false
     },

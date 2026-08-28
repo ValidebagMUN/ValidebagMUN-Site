@@ -13,7 +13,7 @@ const committee = {
     image: '/img/committees/bg/bg.png',
     logo: '/img/committees/logo/who.png',
     chair: 'Gizem Deniz Koç - Afife Yasemin Yazar',
-    acas: 'Ceren Canıtez'
+    acas: 'Berrin Çavdarlı'
 }
 </script>
 

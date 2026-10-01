@@ -20,8 +20,8 @@
                     <TeamCard img="/img/team/ib.jpg" name="İpek Bahadırlı" title="Co-Head of Finance" />
                 </div>
                 <div class="container flex flex-col items-center justify-center lg:flex-row">
-                    <TeamCard img="/img/team/uee.jpg" name="Kubilay Altun" title="Co-Head of Security" />
-                    <TeamCard img="/img/team/by.jpg" name="Ahmet Ali Çınarlı" title="Co-Head of Security" />
+                    <TeamCard img="/img/team/ka.jpg" name="Kubilay Altun" title="Co-Head of Security" />
+                    <TeamCard img="/img/team/aac.jpg" name="Ahmet Ali Çınarlı" title="Co-Head of Security" />
                 </div>
             </div>
         </div>

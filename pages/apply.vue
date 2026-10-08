@@ -1,7 +1,7 @@
 <template>
     <div class="pt-8 hero text-neutral-content">
         <div class="flex-col hero-content lg:flex-row">
-            <div class="lg:ml-[-5em]">
+            <!-- <div class="lg:ml-[-5em]">
                 <h1 class="text-5xl font-bold mb-6">Application Forms</h1>
                 <div class="flex flex-col gap-4 py-4">
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLScvrMhn7sNihzMJUOU1xQwhH3wv-Tv6WBTG6KqpQUe-LrrRHQ/viewform?usp=header" target="_blank" rel="noopener"
@@ -24,11 +24,11 @@
                     <h4 class="text-lg">Individual Delegates: 850₺</h4>
                     <h4 class="text-lg">Admins, Press & PR Members: 600₺</h4>
                 </div>
-            </div>
-            <!-- <div>
+            </div> -->
+            <div class="text-center">
                 <h1 class="text-5xl font-bold mb-6">Applications to ValidebağTrain'26 have been closed.</h1>
                 <h2 class="text-4xl font-bold mb-6">Thank you for your interest.</h2>
-            </div> -->
+            </div>
         </div>
     </div>
 </template>

@@ -13,7 +13,8 @@ const committee = {
     image: '/img/committees/bg/bg.png',
     logo: '/img/committees/logo/unodc.png',
     chair: 'Deniz Yıldırım - Alya Öz',
-    acas: 'Çınar Bal'
+    acas: 'Çınar Bal',
+    sg: "https://drive.google.com/file/d/1-r0tg7cn_WSrbcBPjNw2NrKM9n85gVav/view?usp=sharing"
 }
 </script>
 

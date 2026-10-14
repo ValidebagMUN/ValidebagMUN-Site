@@ -13,7 +13,8 @@ const committee = {
     image: '/img/committees/bg/bg.png',
     logo: '/img/committees/logo/unhrc.png',
     chair: 'Yağmur Kaya - Rüya Aktaş',
-    acas: 'Betül Dündar'
+    acas: 'Betül Dündar',
+    sg: "https://drive.google.com/file/d/1kp-fcxIsoJZEdm6pPA7i8Pgm2Ya0ophr/view?usp=sharing"
 }
 </script>
 

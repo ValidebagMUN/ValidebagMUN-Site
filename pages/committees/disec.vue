@@ -13,7 +13,8 @@ const committee = {
     image: '/img/committees/bg/bg.png',
     logo: '/img/committees/logo/disec.png',
     chair: 'Ege Erdil - Dora Kölemen',
-    acas: 'Tarık Acar'
+    acas: 'Tarık Acar',
+    sg: "https://drive.google.com/file/d/1p0X9IU9aSyUxr2jQ2z_rLFnKTaqp-I5j/view?usp=sharing"
 }
 </script>
 

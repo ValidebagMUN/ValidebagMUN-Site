@@ -14,7 +14,7 @@ const committee = {
     logo: '/img/committees/logo/hunsc.png',
     chair: 'Zeynep Su Gezgin - Muhammed Emin Semerci',
     acas: 'Taim Sarraç',
-    ctm: ''
+    sg: "https://drive.google.com/file/d/1VqfpshR1TRK66_ZqhAChuG8WZwxwawr-/view?usp=sharing"
 }
 </script>
 

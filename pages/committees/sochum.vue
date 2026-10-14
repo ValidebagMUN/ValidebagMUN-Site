@@ -13,7 +13,8 @@ const committee = {
     image: '/img/committees/bg/bg.png',
     logo: '/img/committees/logo/sochum.png',
     chair: 'Duru İzberk - Bulut Azam Malkoçoğlu',
-    acas: 'Çağla Güneş'
+    acas: 'Çağla Güneş',
+    sg: "https://drive.google.com/file/d/1hdXltHqvMZAfhRNwfm7IWunuMp2et7_v/view?usp=sharing"
 }
 </script>
 

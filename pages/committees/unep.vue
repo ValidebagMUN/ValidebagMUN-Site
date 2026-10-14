@@ -12,8 +12,9 @@ const committee = {
     text: 'Extreme heatwaves have been increasing in size and frequency across the world. One of the places where the increased effects are the most noticeable is Europe, where heatwaves present serious challenges regarding public health, infrastructure, agriculture and the environment for the nations residing in it. Death and injury because of heat strokes, wildfires, droughts and damage to the ecosystem are all negative results of the heatwaves.\n\nIn this committee, delegates will discuss ways of reducing the immediate effects of heatwaves on affected communities and areas, as well as long-term solutions to lessen the impact and frequency of heatwaves.',
     image: '/img/committees/bg/bg.png',
     logo: '/img/committees/logo/unep.png',
-    chair: 'Duru Yetkin - Semiha Masal Yaylacı',
-    acas: 'Dilara Buçan'
+    chair: 'Duru Yetkin - Semiha Masal Yaylacı - Efe Başeğmez',
+    acas: 'Dilara Buçan',
+    sg: "https://drive.google.com/file/d/1zvZZ5nO3FefPkt2GflMXyx8BC7Pzqi_9/view?usp=sharing"
 }
 </script>
 

@@ -66,7 +66,7 @@ const date = ref({ days: 10, hours: 10, minutes: 10, seconds: 10 });
 onNuxtReady(() => {
     setInterval(() => {
         const eventStartTime = Date.now();
-        const eventEndTime = new Date('2026-10-17 00:00:00Z');
+        const eventEndTime = new Date('2026-10-24 00:00:00Z');
         const duration = eventEndTime.valueOf() - eventStartTime.valueOf();
         date.value = { days: Math.floor(duration / (1000 * 60 * 60 * 24)), hours: Math.floor((duration % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)), minutes: Math.floor((duration % (1000 * 60 * 60)) / (1000 * 60)), seconds: Math.floor((duration % (1000 * 60)) / 1000) };
     }, 1000);

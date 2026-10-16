@@ -52,7 +52,7 @@
                 What is the schedule of ValidebağTrain?
             </div>
             <div class="collapse-content">
-                <p>The scheduled date of this years edition of ValidebağTrain is 17-18 October 2026. <NuxtLink to="/schedule" class="link">here</NuxtLink>.</p>
+                <p>The scheduled date of this years edition of ValidebağTrain is 24-25 October 2026. <NuxtLink to="/schedule" class="link">here</NuxtLink>.</p>
             </div>
         </div>
         <div class="border collapse collapse-plus join-item">
